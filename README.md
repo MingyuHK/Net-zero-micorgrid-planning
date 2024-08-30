@@ -24,11 +24,14 @@ All the data for experiments are saved in ```../data```.
 
 To reproduce the experiments in the paper, please refer to the detailed ```README.md``` in the following folders.
 
-#### Centralized optimization
-Results serve as the benchmark for VPP's decision-making.
+#### PINN_training
+Results show the estimated parameters for SMR's reduced dynamic model.
 
-#### Distributed optimization
-Results show the concergence for the distributed scheme.
+#### Bench
+Results serve as the benchmark for the proposed palnning scheme.
 
-#### Distributed differentially private optimization
-Results show the impact of the added noise in dual variable.
+#### Load_change
+Results show sensitivity analysis with differnt load disturbance level.
+
+#### Network
+Results show the impact of network line congestion.
